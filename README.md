@@ -1,27 +1,16 @@
-# A1Carto
+# a1-carto-leaflet
+# Salzburg Events Map
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+This web map was created using Angular and Leaflet for the 20W856132: Geovisualization and Advanced Cartography cousrse.
 
-## Development server
+Source code of the main components is provided in the source_code folder since the deployment app is compiled and the code cannot be directly viewed.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Functionality 
 
-## Code scaffolding
+Marker clustering - large number of event markers are clustered and reposnd dinamically to user interaction (zoom in/out, pan...)
+Custom marker icons which use icon library (https://fontawesome.com/)
+Routing/navigation using OSRM(http://project-osrm.org/)
+User location
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Plug-ins
+The web map uses following leaflet plugins:
